@@ -1,15 +1,58 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    width: 50px
+    animation: scale1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    left: 35%
+    width: 315px
   &-2
+    width: 80px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    bottom: 20%
     right: 30%
+  &-3
+    width: 35px
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 50%
+    left: 14%
+  &-4
+    width: 135px
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 45%
+  &-5
+    width: 90px
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 25%
+    right: 0%
 
+@media (max-width: 1400px)
+  .banner-principal-decorativo
+    &-1   
+      top: 10%
+      left: 35%
+      width: 215px
+    &-2
+      width: 50px    
+      bottom: 20%
+      right: 30%
+    &-3
+      width: 25px      
+      bottom: 50%
+      left: 14%
+    &-4
+      width: 105px      
+      top: 10%
+      right: 45%
+    &-5
+      width: 70px      
+      bottom: 25%
+      right: 6%
 
 @keyframes float1
   0%
@@ -17,3 +60,440 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale1
+  0%
+    transform: scale(0.9)
+
+  100%
+    transform: scale(1)
+
+// -----------------------------------------------------
+
+.banner-principal__img > img
+  position: relative
+  z-index: 999
+
+.banner-principal-decorativo-1, .banner-principal-decorativo-2, .banner-principal-decorativo-3, .banner-principal-decorativo-4, .banner-principal-decorativo-5
+  z-index: 0
+
+
+///// img sizes // -----------------------------------------------------
+.img30
+  width: 30px
+.img45
+  width: 45px
+.img65
+  width: 65px
+.img75
+  width: 75px
+.img90
+  width: 90px
+.img115
+  width: 115px
+.img145
+  width: 145px
+.img180
+  width: 180px
+.img255
+  width: 255px
+.img350
+  width: 350px
+
+.hg--100
+  height: 100%
+
+.v-align
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
+.strong
+  font-weight: 600
+
+.hr_line  
+  width: 100%
+  height: 2px
+  margin: 1rem 0
+  background-color: #AFAFAF
+
+.crd--gray
+  background-color: #e6e6e6
+.crd--gray00
+  background-color: #F6F6F6
+
+.numb_02   
+  &::before
+    content: attr(data-nb)   
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    color: #DFE2E5
+    font-size: 18pt
+    font-weight: 700
+
+.autor
+  display: inline-block
+
+.quote
+  display: inline-block
+  i
+    color: #4ADBD1
+    font-size: 18pt
+
+// txt utilities // -----------------------------------------------------
+
+.cstmH3
+  padding: 0.85rem
+  background-color: #4ADBD1
+
+.cstmH5
+  color: white !important
+  padding: 0.85rem
+  background-color: #12263F
+
+.txt--left  
+  text-align: left !important
+
+.txt--blue
+  color: #5573C6
+.txt--mint
+  color: #4ADBD1
+.txt--orange
+  color: $color-acento-botones !important
+
+.txt--orange02
+  color: #FF9101
+.txt--mint
+  color: #4ADBD1
+
+.hglt_yellow
+  background-color: #FFFAD8
+
+.cont
+  position: relative
+  & > *
+    position: relative
+
+.numb
+  position: relative
+  &::before
+    position: absolute
+    content: attr(data-number)
+    top: 0
+    left: -7%
+    color: #D7D8DB
+    font-size: 140pt
+    font-weight: 600
+    line-height: 0.5 
+
+// cajones // -----------------------------------------------------
+.cajon
+  padding: 1.5rem
+  p
+    margin-bottom: 0
+  &.cjn--yellow
+    background-color: #FFFAD8
+    &::before
+      background-color: #EFD198
+
+.bt_cstm_01
+  background-color: #EFEDED
+  &::before
+    background-color: #4ADBD1
+
+//crds // -----------------------------------------------------
+.shadow
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+.brd--top
+  border-top-left-radius: 12pt
+  border-top-right-radius: 12pt
+.brd--botom
+  border-bottom-left-radius: 12pt
+  border-bottom-right-radius: 12pt
+.brd--rad_01
+  border-radius: 9pt
+.brd--rad_02
+  border-radius: 20pt
+
+.ver-align
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
+.hor--negMargin
+  margin-left: -10% 
+
+.top--negMargin
+  margin-top: -6rem
+  @media (max-width: 990px)
+    margin-top: 0
+
+.crd
+  height: 100%
+  position: relative
+  & > *
+    position: relative  
+  &.crd_custom_01
+    height: 100%
+    padding: 2rem
+    background-color: #F6F6F6
+    border-bottom-left-radius: 3rem
+    border-top-right-radius: 3rem
+    &::before
+      content: attr(data-number)
+      position: absolute
+      top: 50%
+      right: 5%
+      transform: translateY(-50%)
+      font-size: 120pt
+      font-weight: 700
+      color: #E2E5E8   
+
+  &.crd--avatarH
+    position: relative
+    height: 100%
+    padding: 1rem    
+    & > *
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      width: calc( 100% - 65px )  
+      height: 100%
+      background-color: #F6F6F6
+      border-radius: 20px
+    &::after
+      content: ''
+      position: absolute
+      top: 50%
+      right: 0
+      transform: translateY(-50%)
+      width: 7px
+      height: 70%
+      background-color: #4ADBD1
+
+.crd--avatarH.clr--01
+  &::after    
+    background-color: #4ADBD1
+
+.crd--avatarH.clr--02
+  &::after    
+    background-color: #F4A338
+
+
+//custom bg // -----------------------------------------------------
+.fullbg
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: calc( 100% + 96px )
+    height: 100%
+
+.fullbg.bg--gray
+  &::before
+    background-color: #F6F6F6
+
+.bg--gray  
+  background-color: #F6F6F6
+
+.bg--white
+  background-color: white
+
+.bg--white02  
+  position: relative    
+  background-color: white
+  border: 2px solid #1565C0
+  border-radius: 9px
+
+.bg--cta
+  background: linear-gradient(90deg, rgba(44,74,155,1) 0%, rgba(85,115,198,1) 100%)
+  
+.bg--blue
+  background-color: #5573C6
+.bg--mint
+  background-color: #4ADBD1
+.bg--orange
+  background-color: #F4A338
+
+.bg--gray_02
+  background: linear-gradient(0deg, rgba(167,179,207,1) 0%, rgba(245,245,245,1) 100%)
+.bg_grad_Blue01
+  background: linear-gradient(0deg, rgba(44,74,155,1) 0%, rgba(85,115,198,1) 100%)
+
+.bg_slider_01
+  background-image: url("../assets/curso/recursos/img_slyder_01.png")
+  background-repeat: no-repeat    
+  background-position: center center
+  background-size: cover
+
+.bg_img_01, .bg_img_02, .bg_img_03, 
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: calc( 100% + 96px )
+    height: 100%
+
+.bg_img_01
+  &::before
+    background-image: url("../assets/curso/recursos/img_bg_01.svg")
+    background-repeat: no-repeat    
+    background-position: top left
+.bg_img_02
+  &::before
+    background-image: url("../assets/curso/recursos/img_bg_02.svg")
+    background-repeat: no-repeat    
+    background-position: top left
+.bg_img_03
+  &::before
+    background-image: url("../assets/curso/recursos/img_bg_03.svg")
+    background-repeat: no-repeat    
+    background-position: top left
+
+.bg_gray_left 
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -48px
+    width: 100%
+    height: 80%
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 85%)
+
+//// Slider F
+.cstmSlyderF_02
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.6rem
+  .horizontal-scroll
+    align-items: stretch !important 
+
+.cstmSlyderF
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.6rem
+  .horizontal-scroll
+    align-items: stretch !important 
+
+//// Slider
+.slyder-a__bullets__item
+  background-color: #AFAFAF
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #EEAC3A
+  border: none
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #5573C6
+  background-image: url("../assets/componentes/arrow_white.svg")
+
+@media (max-width: 990px)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 35px
+    height: 35px
+  .slyder-a__bullets__item
+    width: 9px
+    height: 9px
+    margin: 0 7px
+
+////// Bloque texto B custom
+.bloque-texto-g.cstm  
+  justify-content: flex-start !important
+  .bloque-texto-g__texto
+    z-index: 1
+  .bloque-texto-g__img
+    left: 50% !important
+    z-index: 0
+
+  @media (max-width: 990px)
+    .bloque-texto-g__img
+      left: 0 !important
+
+.tabla-cst
+  overflow-x: auto
+  
+////// Tablas
+.cstm_table_01  
+  thead
+    border-top: none
+    tr
+      background-color: #B0C0D2
+      th 
+        font-size: 1em
+
+///// Linea de tiempo D      
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+    background-color: #EFD198
+
+//// Custom tabs
+.tabs-c__tab--active
+  font-weight: 700
+
+.tabs-c.color-primario .tabs-c__tab--active
+  border-bottom-color: #4ADBD1 !important
+  &::before
+    border-top-color: #4ADBD1
+
+///// cstm background
+.bloque-texto-a.clr_01
+  background-color: #F6F6F6
+  
+.bloque-texto-a.clr_01:before
+  background-color: #4ADBD1
+
+.bloque-texto-a.clr_02
+  background-color: #4ADBD1 
+
+.bloque-texto-a.clr_02:before
+  background-color: #F6F6F6
+
+////// banner
+.bloque-texto-g.cstm_right
+  position: relative
+  justify-content: flex-start
+  background-color: #4ADBD1
+  .bloque-texto-g__texto    
+    z-index: 1
+  .bloque-texto-g__img    
+    left: 100%
+    transform: translateX(-100%)
+    z-index: 0
+
+/////// cstm tables
+.cstm_Table   
+  overflow-x: auto
+  table
+    min-width: 900px
+.cell--blue
+  color: white !important
+  font-size: 18pt
+  background-color: #5573C6
+  border-top: 5px solid #12263F
+.cell--gray  
+  background-color: #f5f5f5
+
+
+
+
