@@ -12,20 +12,20 @@
     .row.justify-content-center.top--negMargin(data-aos="fade").mb-5
       .col-lg-10
         .crd.bg--gray.shadow.brd--rad_01.p-4
-          p.mb-0 Para lograr determinar la calidad y la funcionalidad de la aplicación se deben diseñar uno o varios casos de prueba donde se integren todas las características posibles, trabajando conjuntamente con el equipo de desarrollo, para así lograr hacer las entregas a tiempo al usuario, velando por su continua funcionalidad y prestación del servicio de software.     
+          p.mb-0 Para lograr determinar la calidad y la funcionalidad de la aplicación se deben diseñar uno o varios casos de prueba donde se integren todas las características posibles, trabajando conjuntamente con el equipo de desarrollo, para así lograr hacer las entregas a tiempo al usuario, velando por su continua funcionalidad y prestación del servicio de #[em software].     
 
     .fullbg.bg--gray.p-4.mb-4      
       .row.mb-4(data-aos="fade-right")
         .col-auto
           .cstmH3
-            h3.mb-0 Pruebas unitarias de software
+            h3.mb-0 Pruebas unitarias de #[em software]
 
       .row.justify-content-center
         .col-lg-4(data-aos="zoom-in")   
           figure
             img(src="@/assets/curso/temas/t4/t4_02.png", alt="alt") 
         .col-lg-8(data-aos="fade-left")
-          p Este tipo de pruebas son también conocidas como unit testing o test unitarios. Se describen como el mecanismo de la comprobación del funcionamiento de las unidades de menor tamaño de una aplicación.   
+          p Este tipo de pruebas son también conocidas como #[em unit testing] o test unitarios. Se describen como el mecanismo de la comprobación del funcionamiento de las unidades de menor tamaño de una aplicación.   
 
           .row.align-items-center.mb-4
             .col-auto.d-none.d-lg-flex
@@ -137,14 +137,7 @@
 
     figure(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
-          
-
-
-
-
-
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/JtjLG40i-LI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
 
 </template>

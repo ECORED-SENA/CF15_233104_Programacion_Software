@@ -272,8 +272,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Edward Palencia',
-        cargo: 'Propuesta gráfica',
+        nombre: 'Ángela María Maldonado Jaime ',
+        cargo: 'Validación Ilustración ',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -284,7 +284,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Laura Ximena Hurtado Villalba',
+        nombre: 'Erika Viviana Sandoval Rojas ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -296,17 +296,18 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Miguel Guerrero Gutiérrez',
-        cargo: 'Ilustración',
+        nombre: 'Oleg Litvin',
+        cargo: 'Validación Ilustración ',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Pedro Nel Calao Zabala',
-        cargo: 'Producción audiovisual',
+        nombre: 'Yeimmy Bibiana Barrera Maldonado',
+        cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Validación Ilustración',
@@ -326,7 +327,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yuli Marcela Gómez Tarazona',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

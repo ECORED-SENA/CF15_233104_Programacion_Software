@@ -58,7 +58,7 @@
             figure
               img(src="@/assets/curso/recursos/rectangle_02.svg/", alt="alt").img30.m-auto              
           .col-lg 
-            p.mb-0 Las fases de prueba son muy importantes en el desarrollo del software. Las pruebas ayudan a determinar la calidad del producto, también lo modifican y actualizan para la facilidad y uso del usuario final.
+            p.mb-0 Las fases de prueba son muy importantes en el desarrollo del #[ em software]. Las pruebas ayudan a determinar la calidad del producto, también lo modifican y actualizan para la facilidad y uso del usuario final.
 
           p Los casos de prueba son bloques construidos, fundamentales para combinarlos y lograr conformar la fase de prueba.
 
@@ -113,7 +113,7 @@
             .cont
               .numb(data-number="05")
               h4 Efectividad de los casos de prueba
-              p.mb-0 Las técnicas que se utilicen en los casos de prueba ayudan a orientar la elaboración de casos efectivos, con muy buenas características que direccionen a determinar la calidad y el valor del producto de software.     
+              p.mb-0 Las técnicas que se utilicen en los casos de prueba ayudan a orientar la elaboración de casos efectivos, con muy buenas características que direccionen a determinar la calidad y el valor del producto de #[ em software].     
           .col-lg-4.col-8
             figure
               img(src='@/assets/curso/temas/t1/t1_08.svg', alt='').img180.m-auto
