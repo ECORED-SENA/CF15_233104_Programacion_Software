@@ -13,14 +13,14 @@
           figure
             img(src="@/assets/curso/temas/t2/t2_01.svg", alt="alt")             
         .col-lg-8(data-aos="fade-left")
-          p Para realizar cualquier aplicación o producto de #[ em software] el equipo de desarrollo debe guiarse con una serie de pasos que se ajustan al ciclo de vida del #[ em software] SDLC.
+          p Para realizar cualquier aplicación o producto de #[em software] el equipo de desarrollo debe guiarse con una serie de pasos que se ajustan al ciclo de vida del #[em software] SDLC.
 
           .row.mb-4
             .col-auto.d-none.d-lg-flex
               figure
                 img(src="@/assets/curso/recursos/rectangle_00.svg/", alt="alt").img30.m-auto
             .col-lg
-              p.mb-0 Por lo tanto, las pruebas hacen parte de una de las fases, donde se tiene que garantizar la calidad del producto o aplicación y se logra comparar ese funcionamiento con diferentes tipos de parámetros, basados en el diseño y la ejecución de las pruebas de #[ em software]. 
+              p.mb-0 Por lo tanto, las pruebas hacen parte de una de las fases, donde se tiene que garantizar la calidad del producto o aplicación y se logra comparar ese funcionamiento con diferentes tipos de parámetros, basados en el diseño y la ejecución de las pruebas de #[em software]. 
 
           .cajon.cjn--yellow.p-4(data-aos="zoom-in")
             p.mb-0 Por esto es importante conocer todas las herramientas posibles que indiquen la manera más eficiente de verificar la calidad del programa desarrollado.
@@ -37,7 +37,7 @@
             figure
               img(src="@/assets/curso/recursos/rectangle_02.svg/", alt="alt").img30.m-auto
           .col-lg
-            p Se deben utilizar los elementos útiles al momento de ejecutar los proyectos de desarrollo de #[ em software]. Los elementos a utilizar son plantillas de gerencia de proyectos como:
+            p Se deben utilizar los elementos útiles al momento de ejecutar los proyectos de desarrollo de #[em software]. Los elementos a utilizar son plantillas de gerencia de proyectos como:
 
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0
@@ -116,7 +116,7 @@
           p La Oficina de Gestión de Proyectos PMO desarrolla la metodología que se necesita para gestionar, de muy buena manera, los proyectos empresariales. De igual modo comparte buenas prácticas, lineamientos y metodologías, promoviendo una cultura de gestión de proyectos en todas las empresas. El ideal es capacitar y entrenar a los líderes de los proyectos junto a sus equipos.          
 
           .cajon.cjn--yellow.p-4(data-aos="zoom-in").mb-4
-            p.mb-0 Por su parte y como herramientas clave del desarrollo de #[ em software] para la gerencia de proyectos están también las plantillas de curriculum vitae, estas son:
+            p.mb-0 Por su parte y como herramientas clave del desarrollo de #[em software] para la gerencia de proyectos están también las plantillas de curriculum vitae, estas son:
 
           .row.justify-content-center
             .col-xl-3.col-md-6.col-md-8.col-10.mb-4.mb-xl-0
@@ -249,17 +249,17 @@
     .fullbg.bg--gray.p-4.mb-4
       .row.justify-content-center.align-items-center.mb-4                    
         .col-lg-8(data-aos="fade-left")
-          p Para el desarrollo de #[ em software], en la fase de pruebas, se puede caracterizar de manera crítica para que se logre asegurar el producto y para que sea enviado al equipo de producción con la calidad esperada por el cliente o el usuario final. 
+          p Para el desarrollo de #[em software], en la fase de pruebas, se puede caracterizar de manera crítica para que se logre asegurar el producto y para que sea enviado al equipo de producción con la calidad esperada por el cliente o el usuario final. 
 
           .row.mb-4
             .col-auto.d-none.d-lg-flex
               figure
                 img(src="@/assets/curso/recursos/rectangle_00.svg/", alt="alt").img30.m-auto
             .col-lg
-              p.mb-0 De igual forma se hace necesario e indispensable contar con un muy buen plan de pruebas de #[ em software] para lograr la especificación de las funciones que se prueban, de la manera como serán ejecutadas las pruebas, asignar a los responsables y el cronograma para lograr las entregas finales. 
+              p.mb-0 De igual forma se hace necesario e indispensable contar con un muy buen plan de pruebas de #[em software] para lograr la especificación de las funciones que se prueban, de la manera como serán ejecutadas las pruebas, asignar a los responsables y el cronograma para lograr las entregas finales. 
 
           .cajon.cjn--yellow.p-4(data-aos="zoom-in")
-            p.mb-0 El plan de pruebas se debe aplicar para todo el proyecto de #[ em software]. Del mismo modo, se puede acotar por iteraciones, o casos, igual se pueden definir por jerarquías o casos de prueba para ser considerados.
+            p.mb-0 El plan de pruebas se debe aplicar para todo el proyecto de #[em software]. Del mismo modo, se puede acotar por iteraciones, o casos, igual se pueden definir por jerarquías o casos de prueba para ser considerados.
 
         .col-lg-4.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
@@ -308,7 +308,7 @@
             img(src="@/assets/curso/temas/t2/t2_13.svg", alt="alt")          
 
         .col-lg-8(data-aos="fade-left")
-          p El principal producto que se elabora durante la fase de análisis de pruebas en el proyecto de #[ em software] es la especificación del diseño de casos de prueba y los respectivos datos de entrada. 
+          p El principal producto que se elabora durante la fase de análisis de pruebas en el proyecto de #[em software] es la especificación del diseño de casos de prueba y los respectivos datos de entrada. 
 
           .row.mb-4
             .col-auto.d-none.d-lg-flex
@@ -386,14 +386,14 @@
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Modelo de informe de ejecución de pruebas
 
-    p.mb-5 Los siguientes son los datos de la plantilla del plan de pruebas de #[ em software]:
+    p.mb-5 Los siguientes son los datos de la plantilla del plan de pruebas de #[em software]:
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_17.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Al momento de ejecutar los proyectos de desarrollo de #[ em software], en la fase de pruebas #[em software Testing] suele volverse crítica y los stakeholders (interesados) buscan información inmediata sobre el estado de la calidad del producto que se está ejecutando.
+        p.mb-0 Al momento de ejecutar los proyectos de desarrollo de #[em software], en la fase de pruebas #[em software Testing] suele volverse crítica y los stakeholders (interesados) buscan información inmediata sobre el estado de la calidad del producto que se está ejecutando.
 
     .fullbg.bg--gray.p-4.mb-4
       .row.justify-content-center.align-items-center
@@ -419,7 +419,7 @@
           figure
             img(src="@/assets/curso/temas/t2/t2_18.svg", alt="alt")  
 
-    p Los siguientes son los datos de la plantilla del plan de pruebas de #[ em software]:
+    p Los siguientes son los datos de la plantilla del plan de pruebas de #[em software]:
     
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.d-none.d-lg-flex
@@ -505,7 +505,7 @@
                 td Se reportan la cantidad de defectos que se encuentran en análisis, aún no son aceptados.
               tr
                 td Descartados
-                td Son los defectos que se descartan porque no aplican en la prueba por el tester.
+                td Son los defectos que se descartan porque no aplican en la prueba por el #[em tester].
               tr.cell--gray  
                 td En proceso
                 td Se refiere a la cantidad de defectos que se analizaron y están nuevamente en desarrollo.

@@ -29,8 +29,8 @@
     .row.justify-content-center(data-aos="zoom-in") 
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          span Diseño de los casos de pruebas 
+          h5 Figura 3.
+          span Tipos de pruebas de #[em software]
 
         figure.mb-5
         img(src='@/assets/curso/temas/t3/t3_02.svg', alt='')
